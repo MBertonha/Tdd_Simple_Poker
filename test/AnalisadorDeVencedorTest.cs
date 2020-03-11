@@ -29,7 +29,8 @@ namespace Desafio_Poker_Simples.test
         }
 
         [Theory]
-        [InlineData("2O,2C,RP,RE,7C", "RO,5C,2E,RC,7P", "Jogador 2")]
+        [InlineData("2O,3C,RP,RE,7C", "RO,5C,2E,RC,7P", "Jogador 2")]
+        [InlineData("RO,5C,2E,RC,7P", "2O,2C,RP,RE,7C", "Jogador 2")]
         public void DeveAnalisarVencedorQuandoDoisJogadoresEstaoEmpatadosComPar(string cartasDoJogador1String, string cartasDoJogador2String, string vencedorEsperado)
         {
             var cartasJogador1 = cartasDoJogador1String.Split(',').ToList();

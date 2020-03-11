@@ -33,22 +33,14 @@ namespace Desafio_Poker_Simples.src
                     .Max();
 
                 if (maiorParDeCartasDoJogador1 > maiorParDeCartasDoJogador2)
-                {
                     return "Jogador 1";
-                }
                 else if (maiorParDeCartasDoJogador2 > maiorParDeCartasDoJogador1)
-                {
                     return "Jogador 2";
-                }
             }
             else if (cartasDuplicadosDoJogador1 != null && cartasDuplicadosDoJogador1.Any())
-            {
                 return "Jogador 1";
-            }
             else if (cartasDuplicadosDoJogador2 != null && cartasDuplicadosDoJogador2.Any())
-            {
                 return "Jogador 2";
-            }
 
             var maiorCartaDoJogador1 = cartasJogador1
                 .Select(carta => ConverterParaValorDaCarta(carta))
