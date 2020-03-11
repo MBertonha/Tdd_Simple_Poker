@@ -31,8 +31,15 @@ namespace Desafio_Poker_Simples.src
                 var maiorParDeCartasDoJogador2 = cartasDuplicadosDoJogador2.Select(valor => valor.Key)
                     .OrderBy(valor => valor)
                     .Max();
-                return maiorParDeCartasDoJogador1 > maiorParDeCartasDoJogador2 ?
-                    "Jogador 1" : "Jogador 2";
+
+                if (maiorParDeCartasDoJogador1 > maiorParDeCartasDoJogador2)
+                {
+                    return "Jogador 1";
+                }
+                else if (maiorParDeCartasDoJogador2 > maiorParDeCartasDoJogador1)
+                {
+                    return "Jogador 2";
+                }
             }
             else if (cartasDuplicadosDoJogador1 != null && cartasDuplicadosDoJogador1.Any())
             {
