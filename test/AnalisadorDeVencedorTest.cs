@@ -7,7 +7,20 @@ namespace Desafio_Poker_Simples.test
     public class AnalisadorDeVencedorTest
     {
         [Fact]
-        public void DeveAnalisarVencedror()
+        public void DeveAnalisarVencedrorQuandoJogador1TiverMaiorCarta()
+        {
+            const string vencedorEsperado = "Jogador 1";
+            var cartasJogador1 = new List<string> { "3O", "5C", "2E", "9C", "7P" };
+            var cartasJogador2 = new List<string> { "2O", "4C", "3P", "6C", "7C" };
+
+            var analisador = new AnalisadorDeVencedor();
+
+            var vencedor = analisador.Analisar(cartasJogador1, cartasJogador2);
+
+            Assert.Equal(vencedorEsperado, vencedor);
+        }
+        [Fact]
+        public void DeveAnalisarVencedrorQuandoJogador2TiverMaiorCarta()
         {
             const string vencedorEsperado = "Jogador 2";
             var cartasJogador1 = new List<string> { "2O", "4C", "3P", "6C", "7C" };

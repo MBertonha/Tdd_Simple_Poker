@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matheus.bertonha\\Desktop\\MBertonha\\Tdd_xUnit\\Desafio_Poker_Simples\\Desafio_Poker_Simples.csproj": {}
+    "c:\\Users\\matheus.bertonha\\Desktop\\MBertonha\\Tdd_xUnit\\Desafio_Poker_Simples\\Desafio_Poker_Simples.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matheus.bertonha\\Desktop\\MBertonha\\Tdd_xUnit\\Desafio_Poker_Simples\\Desafio_Poker_Simples.csproj": {
+    "c:\\Users\\matheus.bertonha\\Desktop\\MBertonha\\Tdd_xUnit\\Desafio_Poker_Simples\\Desafio_Poker_Simples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matheus.bertonha\\Desktop\\MBertonha\\Tdd_xUnit\\Desafio_Poker_Simples\\Desafio_Poker_Simples.csproj",
+        "projectUniqueName": "c:\\Users\\matheus.bertonha\\Desktop\\MBertonha\\Tdd_xUnit\\Desafio_Poker_Simples\\Desafio_Poker_Simples.csproj",
         "projectName": "Desafio_Poker_Simples",
-        "projectPath": "C:\\Users\\matheus.bertonha\\Desktop\\MBertonha\\Tdd_xUnit\\Desafio_Poker_Simples\\Desafio_Poker_Simples.csproj",
+        "projectPath": "c:\\Users\\matheus.bertonha\\Desktop\\MBertonha\\Tdd_xUnit\\Desafio_Poker_Simples\\Desafio_Poker_Simples.csproj",
         "packagesPath": "C:\\Users\\matheus.bertonha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matheus.bertonha\\Desktop\\MBertonha\\Tdd_xUnit\\Desafio_Poker_Simples\\obj\\",
+        "outputPath": "c:\\Users\\matheus.bertonha\\Desktop\\MBertonha\\Tdd_xUnit\\Desafio_Poker_Simples\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
